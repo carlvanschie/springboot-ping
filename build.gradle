@@ -17,11 +17,6 @@ apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'com.palantir.docker'
 
-jar {
-    baseName = 'gs-rest-service'
-    version =  '0.1.0'
-}
-
 repositories {
     mavenCentral()
 }
@@ -35,11 +30,10 @@ dependencies {
 }
 
 
-
-group = 'springio'
+group = 'carlvanschie'
 
 jar {
-    baseName = 'gs-spring-boot-docker'
+    baseName = 'ping-app'doc
     version =  '0.1.0'
 }
 
