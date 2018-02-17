@@ -1,4 +1,4 @@
-package vanschie.spring.rest;
+package vanschie.spring.rest.rest;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
